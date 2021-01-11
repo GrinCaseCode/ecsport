@@ -100,6 +100,15 @@
 .instagram__image img {
 	max-width: 750px;
 }
+.advantages__img img {
+    max-width: 110%;
+}
+.item-advantage {
+    margin-bottom: 45px;
+    }
+    .get-consult__img img {
+        max-width: 850px;
+    }
 }
 @media only screen and (max-width : 1440px) {
 .container_big {
@@ -216,6 +225,12 @@
 }
 .instagram__image img {
 	max-width: 700px;
+}
+.services .descr-section {
+    padding-bottom: 50px;
+}
+.get-consult__img img {
+    max-width: 755px;
 }
 }
 
@@ -570,6 +585,12 @@
 .partners .title-section {
 	padding-bottom: 30px;
 }
+.get-consult__img img {
+    max-width: 690px;
+}
+.get-consult {
+    padding: 50px 0;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -814,7 +835,33 @@ line-height: 20px;
 .wrapper {
     padding-top: 72px;
 }
-
+.advantages__img img {
+    max-width: 100%;
+}
+.item-advantage__image {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 0;
+    margin-bottom: 10px;
+}
+.item-advantage__image img {
+    max-width: 63px;
+    max-height: 38px;
+}
+.advantages .title-section {
+    padding-bottom: 0;
+}
+.col_consult {
+    order: -1;
+}
+.get-consult__img {
+    margin-top: 25px;
+}
+.get-consult__img img {
+    max-width: 100%;
+    margin: 0 auto;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1016,6 +1063,18 @@ line-height: 20px;
 .item-pin_13 {
     left: 359px;
     top: 99px;
+}
+.billbord__logos img {
+    margin-left: 15px;
+    margin-top: 23px;
+    max-width: 31%;
+    max-height: 42px;
+}
+.billbord__logos {
+    justify-content: center;
+}
+.services .descr-section {
+    padding-bottom: 25px;
 }
 }
 @media only screen and (max-width : 576px) {
@@ -1227,6 +1286,15 @@ line-height: 20px;
     left: 50%;
     margin-left: -5px;
     }
+    .billbord__logos img {
+    margin-left: 9px;
+    margin-top: 15px;
+    max-width: 35%;
+    max-height: 36px;
+}
+.get-consult {
+    padding-top: 35px;
+}
 }
 
 /* Custom, iPhone Retina */
@@ -1270,5 +1338,17 @@ line-height: 20px;
 }
 .container_big {
 	max-width: 1600px;
+}
+.billbord__logos {
+    justify-content: center;
+}
+}
+@media (min-width: 1780px) {
+.billbord__image {
+    position: relative;
+    left: 115px;
+}
+.billbord__logos {
+    justify-content: flex-end;
 }
 }

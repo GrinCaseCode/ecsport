@@ -257,20 +257,18 @@ p {
 }
 
 .billbord {
-	padding-top: 80px;
+	padding-top: 65px;
 	padding-bottom: 40px;
 	min-height: 715px;
-	background-image: url(../img/bg_billbord.jpg);
+	background-color: #f9f9f9;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 .billbord__image {
 	display: flex;
-	justify-content: center;
 }
 .billbord__image img {
-	max-width: 115%;
 	display: block;
 	margin: 0 auto;
 }
@@ -322,7 +320,7 @@ p {
 	margin-top: 62px;
 }
 .billbord__left {
-	padding-top: 40px;
+	padding-top: 60px;
 }
 .title-section {
 	font-size: 36px;
@@ -717,6 +715,9 @@ left: 785px;
 	padding-top: 35px;
 	background-image: url(../img/bg_partners.jpg);
 	color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .get-consult .title-section {
 	font-size: 46px;
@@ -1321,4 +1322,72 @@ box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 /*End Sandwich*/
 .title-footer i {
 	display: none;
+}
+.billbord__logos {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.billbord__logos img {
+	margin-left: 20px;
+	margin-top: 23px;
+	max-width: 33%;
+}
+.advantages {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background-image: url(../img/bg_steps.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.advantages .title-section {
+	max-width: 100%;
+}
+.item-advantage {
+	margin-bottom: 60px;
+	padding-left: 205px;
+	position: relative;
+}
+.item-advantage__image {
+	width: 154px;
+	height: 154px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	top: -6px;
+	background-color: #fff;
+	box-shadow: 0 10px 25px rgba(0, 37, 95, 0.2);
+}
+.item-advantage__image img {
+	max-width: 90px;
+	max-height: 60px;
+}
+.item-advantage {
+	max-width: 620px;
+}
+.item-advantage__head {
+	color: #00255f;
+}
+.advantages .title-section {
+	padding-bottom: 60px;
+}
+.services .descr-section {
+	padding-bottom: 80px;
+}
+.services {
+	padding-bottom: 40px;
+}
+.get-consult__img img {
+	float: right;
+}
+.get-consult .title-section {
+	padding-top: 0;
+}
+.get-consult {
+	padding-top: 100px;
+	padding-bottom: 100px;
 }

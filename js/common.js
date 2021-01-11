@@ -35,6 +35,8 @@ $(document).ready(function() {
 	});
 
 
+$(".input-phone").mask("+7 (999) 999-99-99");
+
 	/*высота блока по экрану*/
 	function heightDetect() {
 		$('.nav').css("height", $(window).height() -$(".header").height() + 60);
