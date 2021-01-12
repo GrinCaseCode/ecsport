@@ -591,7 +591,6 @@
 .get-consult {
     padding: 50px 0;
 }
-
 }
 
 /* Medium Devices, Desktops */
@@ -862,15 +861,6 @@ line-height: 20px;
 .get-consult__img img {
     max-width: 100%;
     margin: 0 auto;
-}
-.item-certificate {
-    max-width: 275px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-.row_certificate {
-    justify-content: center;
 }
 }
 
@@ -1305,7 +1295,6 @@ line-height: 20px;
 .get-consult {
     padding-top: 35px;
 }
-
 }
 
 /* Custom, iPhone Retina */
