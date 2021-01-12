@@ -1,162 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
 <head>
-    <meta charset="utf-8" />
-    <title>Заголовок</title>
-    <meta name="description" content="" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.png" />
-    <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
-    <link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
-    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-    <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
-    <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/main.css?ver=1.2" />
-    <link rel="stylesheet" href="css/media.css?ver=1.2" />
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.4" />
+	<link rel="stylesheet" href="css/media.css?ver=1.4" />
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="container container_big">
-                <div class="header__top">
-                    <div class="logo-wrap">
-                        <a href="#" class="logo">
-                            <img src="img/logo.svg" alt="alt">
-                        </a>
-                        <div class="logo-descr">г. Симферополь, <br>ул. Севастопольская, 8, оф, 16</div>
-                    </div>
-                    <div class="header__logo">
-                        <img src="img/logo_header.png" alt="alt">
-                    </div>
-                    <a href="#" class="btn-eye"></a>
-                    <div class="block-language">
-                        <div class="block-language__value"><img src="img/ic_ru.png" alt="alt">Ru <i
-                                class="fas fa-chevron-down"></i></div>
-                        <ul class="dropdown-language">
-                            <li>
-                                <a href="#"><img src="img/ic_eng.png" alt="alt">En</a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="img/ic_ru.png" alt="alt">Ru</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="right-header">
-                        <a href="tel:" class="phone-main"><i class="fas fa-phone-alt"></i>+7 (978) 797-87-97</a>
-                        <a href="#" class="btn-transparent">Заказать звонок</a>
-                        <span class="btn_nav">
-                            <span class='sandwich'>
-                                <span class='sw-topper'></span>
-                                <span class='sw-bottom'></span>
-                                <span class='sw-footer'></span>
-                            </span>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="nav">
-                <div class="container container_big">
-                    <ul class="menu">
-                        <li class="active">
-                            <a href="#">О центре <i class="fas fa-chevron-down"></i></a>
-                            <ul class="menu-dropdown">
-                                <li><a href="#">Новости</a></li>
-                                <li><a href="#">Контакты</a></li>
-                                <li><a href="#">Новости</a></li>
-                                <li><a href="#">Контакты</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Наши услуги <i class="fas fa-chevron-down"></i></a>
-                            <ul class="menu-dropdown">
-                                <li><a href="#">Новости</a></li>
-                                <li><a href="#">Контакты</a></li>
-                                <li><a href="#">Новости</a></li>
-                                <li><a href="#">Контакты</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Экспорт товаров </a></li>
-                        <li><a href="#">Экспорт услуг</a></li>
-                        <li><a href="#">Мероприятия</a></li>
-                        <li><a href="#">Противодействие коррупции</a></li>
-                        <li><a href="#">Новости</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </div>
-            </div>
-        </header>
 
-        <div class="corruption">
-            <div class="container">
-                <div class="title-section corruption-title">противодействие коррупции</div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <a href="#" class="documents-item corruption-item corruption-align">
-                        <span>ФЗ «О противодействии коррупции» от 25.12.2008</span>
-                    </a>
-                </div>
+	<div class="wrapper">
 
-                <div class="col-lg-6">
-                    <a href="#" class="documents-item corruption-item">
-                        <span>Указ Главы Республики Крым от 27.02.2015 №54 У</span>
-                    </a>
-                </div>
+		<header class="header">
+			<div class="container container_big">
+				<div class="header__top">
+					<div class="logo-wrap">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="alt">
+						</a>
+						<div class="logo-descr">г. Симферополь, <br>ул. Севастопольская, 8, оф, 16</div>
+					</div>
+					<div class="header__logo">
+						<img src="img/logo_header.png" alt="alt">
+					</div>
+					<a href="#" class="btn-eye"></a>
+					<div class="block-language">
+						<div class="block-language__value"><img src="img/ic_ru.png" alt="alt">Ru <i class="fas fa-chevron-down"></i></div>
+						<ul class="dropdown-language">
+							<li>
+								<a href="#"><img src="img/ic_eng.png" alt="alt">En</a>
+							</li>
+							<li>
+								<a href="#"><img src="img/ic_ru.png" alt="alt">Ru</a>
+							</li>
+						</ul>
+					</div>
+					<div class="right-header">
+						<a href="tel:" class="phone-main"><i class="fas fa-phone-alt"></i>+7 (978) 797-87-97</a>
+						<a href="#" class="btn-transparent">Заказать звонок</a>
+						<span class="btn_nav">
+							<span class='sandwich'>
+								<span class='sw-topper'></span>
+								<span class='sw-bottom'></span>
+								<span class='sw-footer'></span>
+							</span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="nav">
+				<div class="container container_big">
+					<ul class="menu">
+						<li class="active">
+							<a href="#">О центре <i class="fas fa-chevron-down"></i></a>
+							<ul class="menu-dropdown">
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Наши услуги <i class="fas fa-chevron-down"></i></a>
+							<ul class="menu-dropdown">
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Экспорт товаров </a></li>
+						<li><a href="#">Экспорт услуг</a></li>
+						<li><a href="#">Мероприятия</a></li>
+						<li><a href="#">Противодействие коррупции</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
 
-                <div class="col-lg-6">
-                    <a href="#" class="documents-item corruption-item">
-                        <span>ФЗ «О противодействии коррупции» от 25.12.2008</span>
-                    </a>
-                </div>
+		<div class="corruption">
+			<div class="container">
+				<div class="title-section title-section_page">противодействие коррупции</div>
+				<div class="row row_documents">
+					<div class="col-lg-6">
+						<a href="#" class="documents-item">ФЗ «О противодействии коррупции» <br>от 25.12.2008</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="documents-item">Указ Главы Республики Крым <br>от 27.02.2015 №54 У</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="documents-item">ФЗ «О противодействии коррупции» <br>от 25.12.2008</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="documents-item">Указ Главы Республики Крым от 27.02.2015 №54 У «О мерах по противодействию  коррупции в Республике Крым»</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="documents-item">Антикоррупционная политика ГБУ</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="documents-item">Указ Главы Республики Крым от 27.02.2015 №54 У «О мерах по противодействию  коррупции в Республике Крым»</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="documents-item">План мероприятий по противодействию коррупции</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="documents-item">Порядок сотрудничества</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="documents-item">Устав АНО «Южный региональный Центр поддержки экспорта»</a>
+					</div>
+					<div class="col-lg-6">
+						<a href="#" class="documents-item">Порядок уведомления</a>
+					</div>
+				</div>
+			</div>
 
-                <div class="col-lg-6">
-                    <a href="#" class="documents-item corruption-item">
-                        <span>Указ Главы Республики Крым от 27.02.2015 №54 У «О мерах по противодействию  коррупции в Республике Крым»</span>
-                    </a>
-                </div>
+		</div>
 
-                <div class="col-lg-6">
-                    <a href="#" class="documents-item corruption-item corruption-align">
-                        <span>Антикоррупционная политика ГБУ</span>
-                    </a>
-                </div>
-                
-                <div class="col-lg-6">
-                    <a href="#" class="documents-item corruption-item">
-                        <span>Указ Главы Республики Крым от 27.02.2015 №54 У «О мерах по противодействию  коррупции в Республике Крым»</span>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="#" class="documents-item corruption-item">
-                        <span>План мероприятий по противодействию коррупции</span>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="#" class="documents-item corruption-item corruption-align">
-                        <span>Порядок сотрудничества</span>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="#" class="documents-item corruption-item">
-                        <span>Устав АНО «Южный региональный Центр поддержки экспорта»</span>
-                    </a>
-                </div>
-
-                <div class="col-lg-6">
-                    <a href="#" class="documents-item corruption-item corruption-align">
-                        <span>Порядок уведомления</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-            
-        </div>
-
-        <div class="subscribe">
+		<div class="subscribe">
 			<div class="container container_big">
 				<div class="row align-items-center">
 					<div class="col-xl-8 col-lg-7">
@@ -287,9 +264,10 @@
 				</div>
 			</div>
 		</footer>
-    </div>
-    
-     <!--[if lt IE 9]>
+
+	</div>
+
+	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
@@ -302,11 +280,8 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-<script src="js/common.js?ver=1.2"></script>
-<!-- Yandex.Metrika counter -->
-<!-- /Yandex.Metrika counter -->
-<!-- Google Analytics counter -->
-<!-- /Google Analytics counter -->
+<script src="js/common.js?ver=1.4"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
 </html>
