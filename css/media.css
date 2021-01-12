@@ -591,6 +591,9 @@
 .get-consult {
     padding: 50px 0;
 }
+.item-certificate__image {
+    height: 367px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -861,6 +864,15 @@ line-height: 20px;
 .get-consult__img img {
     max-width: 100%;
     margin: 0 auto;
+}
+.item-certificate {
+    max-width: 275px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.row_certificate {
+    justify-content: center;
 }
 }
 
@@ -1295,6 +1307,29 @@ line-height: 20px;
 .get-consult {
     padding-top: 35px;
 }
+.documents-item {
+    font-size: 13px;
+    line-height: 22px;
+    padding: 30px 0;
+    padding-left: 62px;
+    padding-right: 15px;
+    min-height: auto;
+    height: auto;
+    background-position: 20px center;
+}
+.documents-item br {
+    display: none;
+}
+.title-section_page {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    }
+    .documents {
+        padding-bottom: 20px;
+    }
+    .item-certificate__name {
+        font-size: 14px;
+    }
 }
 
 /* Custom, iPhone Retina */
