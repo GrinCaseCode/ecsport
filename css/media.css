@@ -232,6 +232,9 @@
 .get-consult__img img {
     max-width: 755px;
 }
+.item-calendar__content {
+    font-size: 13px;
+}
 }
 
 @media only screen and (max-width : 1330px) {
@@ -369,6 +372,10 @@
 }
 .instagram__image img {
 	max-width: 600px;
+}
+.item-calendar__content {
+    font-size: 11px;
+    line-height: 20px;
 }
 }
 /* Large Devices, Wide Screens */
@@ -594,6 +601,13 @@
 .item-certificate__image {
     height: 367px;
     }
+    .article .title-section {
+        margin: 0;
+    }
+    .item-calendar__content {
+    font-size: 11px;
+    line-height: 16px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -887,6 +901,55 @@ line-height: 20px;
 .contacts .form-page {
     margin-top: 40px;
 }
+.item-partner__image {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.item-partner {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.descr-article {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 35px 30px;
+    padding-right: 35px;
+    }
+    .blockquote {
+    padding: 55px 20px;
+    padding-bottom: 52px;
+    margin-top: 35px;
+    padding-right: 30px;
+    font-size: 16px;
+}
+.blockquote p {
+    font-size: 21px;
+    line-height: 33px;
+    margin-bottom: 15px;
+    }
+    .item-calendar__content {
+    font-size: 10px;
+    line-height: 14px;
+}
+.item-calendar__head span {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+    }
+    .head-calendar__item {
+        font-size: 12px;
+    }
+    .nav-calendar {
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+.calendar {
+    padding-bottom: 60px;
+}
+.row_news > div:nth-child(n+8):nth-child(-n+12), 
+.row_news > div:nth-child(n+5):nth-child(-n+8) {
+    margin-top: 9px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1130,6 +1193,82 @@ padding-bottom: 15px;
 .contacts {
     padding-top: 40px;
     padding-bottom: 50px;
+}
+.item-partner__name {
+    font-size: 15px;
+    padding-bottom: 12px;
+    line-height: 24px;
+}
+.item-partner {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+.partners-page {
+    padding-bottom: 20px;
+}
+.article .title-section {
+    line-height: 34px;
+}
+.descr-article {
+    font-size: 16px;
+    padding: 30px 30px;
+}
+.article {
+    font-size: 14px;
+}
+.blockquote p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.blockquote {
+    font-size: 14px;
+}
+.title-middle {
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    }
+    .article li,
+    .article p {
+        margin-bottom: 15px;
+    }
+    .head-calendar {
+        display: none;
+    }
+    .item-calendar {
+        width: 33.333%;
+    }
+    .item-calendar__content {
+    font-size: 11px;
+    line-height: 15px;
+}
+.item-calendar:nth-child(7n) .item-calendar__content {
+        border-right: 1px rgba(0, 37, 95, 0.3) solid;
+}
+.item-calendar:nth-child(3n) .item-calendar__content {
+    border-right: none;
+}
+.nav-calendar i {
+    font-size: 13px;
+}
+.item-calendar__head b {
+    font-size: 12px;
+    display: inline-block;
+}
+.item-calendar.active .item-calendar__head b {
+    color: #00255f;
+}
+
+.pagination ul {
+    width: 100%;
+    min-width: initial;
+}
+.row_news > div,
+.row_news > div:nth-child(n+8):nth-child(-n+12),
+ .row_news > div:nth-child(n+5):nth-child(-n+8) {
+    margin-top: 0 !important;
 }
 }
 @media only screen and (max-width : 576px) {
@@ -1418,6 +1557,73 @@ padding-bottom: 15px;
 .form-page__title {
     font-size: 20px;
     }
+    .item-partner__name br {
+        display: none;
+    }
+    .article__image img {
+        border-radius: 7px;
+            box-shadow: 0 6px 11px rgba(16, 56, 128, 0.2);
+    }
+    .article .title-section {
+    line-height: 29px;
+    font-size: 17px;
+}
+.article__date {
+    font-size: 13px;
+    padding-top: 10px;
+    }
+    .descr-article {
+    font-size: 14px;
+    padding: 18px 15px;
+    margin-bottom: 20px;
+}
+.blockquote::before {
+    font-size: 120px;
+    line-height: 1px;
+    height: 66px;
+    left: 14px;
+    top: -32px;
+    }
+    .blockquote::after {
+    font-size: 120px;
+    line-height: 1px;
+    height: 66px;
+    right: 14px;
+    bottom: -32px;
+    }
+    .blockquote {
+        padding: 30px 20px;
+    }
+    .title-middle {
+    font-size: 16px;
+    line-height: 23px;
+    padding-bottom: 10px;
+}
+.nav-calendar {
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.item-calendar {
+    width: 50%;
+}
+.item-calendar:nth-child(3n) .item-calendar__content {
+        border-right: 1px rgba(0, 37, 95, 0.3) solid;
+}
+.item-calendar:nth-child(2n) .item-calendar__content {
+    border-right: none;
+}
+.item-calendar__head b {
+    font-size: 11px;
+    }
+    .pagination ul {
+    font-size: 14px;
+}
+.pagination .pagination__arrow a {
+    width: 40px;
+    height: 40px;
+    font-size: 13px;
+}
 }
 
 /* Custom, iPhone Retina */
