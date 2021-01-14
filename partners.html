@@ -100,50 +100,50 @@
 			</div>
 		</header>
 
-		<div class="contacts">
+		<div class="partners-page">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-5">
-						<div class="contacts__title">Южный региональный центр поддержки экспорта</div>
-						<div class="contacts__name">адрес</div>
-						<p>295024, Россия, Республика Крым</p>
-						<p>г. Симферополь,</p>
-						<p>ул. Севастопольская, 8, офис 16</p>
-						<div class="contacts__name">телефон</div>
-						<p><a href="tel:+79787978797">+7 978 797-87-97</a></p>
-						<br>
-						<p><a href="mailto:exportrk2018@gmail.com">exportrk2018@gmail.com</a></p>
+				<div class="title-section title-section_page">партнеры</div>
+				<div class="item-partner">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="item-partner__image">
+								<img src="img/partner1.png" alt="alt">
+							</div>
+						</div>
+						<div class="col-lg-8">
+							<div class="item-partner__name">Министерство экономического развития <br>Республики Крым</div>
+							<p>Министерство экономического развития Республики Крым является исполнительным органом государственной власти Республики Крым, подотчетным, подконтрольным и ответственным перед Главой Республики Крым и Советом министров Республики Крым. Министерство разрабатывает и реализует на территории Республики Крым государственную политику социально-экономического развития, инвестиционную и внешнеэкономическую политику, государственную политику в сфере развития малого и среднего предпринимательства. В указанных сферах деятельности Министерство координирует деятельность других исполнительных органов государственной власти Республики Крым в случаях, предусмотренных законодательством.</p>
+						</div>
 					</div>
-					<div class="col-lg-7">
-						<div class="form-page">
-							<div class="form-page__title">обратная связь</div>
-							<form>
-								<div class="item-form">
-									<input type="text" placeholder="Имя" required="required">
-								</div>
-								<div class="item-form">
-									<input type="email" placeholder="E-mail" required="required">
-								</div>
-								<div class="item-form">
-									<textarea placeholder="Сообщение"></textarea>
-								</div>
-								<button class="btn-main" type="submit">Отправить</button>
-								<div class="checkbox-wrap">
-									<div class="checkbox">
-										<label>
-											<input type="checkbox" required="required" checked="checked" />
-											<span>Согласие на обработку персональных данных</span>
-										</label>
-									</div>
-								</div>
-							</form>
+				</div>
+				<div class="item-partner">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="item-partner__image">
+								<img src="img/partner2.png" alt="alt">
+							</div>
+						</div>
+						<div class="col-lg-8">
+							<div class="item-partner__name">Мой бизнес продвижение на экспорт <br>Республики Крым</div>
+							<p>Для увеличения количества таких компаний в регионах на базе центров «Мой бизнес» создаются Центры поддержки экспорта (ЦПЭ). В них предприниматели могут получить финансовую и нефинансовую поддержку, позволяющую увеличить географию поставок и расширить бизнес. Они помогают не только принять участие в зарубежных выставках, но и получить самые разные услуги вплоть до юридического и лингвистического сопровождения экспортных контрактов и логистической поддержки. Для достижения максимальной эффективности в продвижении МСП на зарубежные рынки ЦПЭ тесно работают с Российским экспортным центром (РЭЦ).</p>
+						</div>
+					</div>
+				</div>
+				<div class="item-partner">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="item-partner__image">
+								<img src="img/partner3.png" alt="alt">
+							</div>
+						</div>
+						<div class="col-lg-8">
+							<div class="item-partner__name">Российский экспортный центр</div>
+							<p>АО «Российский экспортный центр» (РЭЦ) – государственный институт поддержки несырьевого экспорта, консолидирующий группу компаний, предоставляющих российским экспортерам широкий спектр финансовых и нефинансовых мер поддержки. В Группу РЭЦ интегрированы Российское агентство по страхованию экспортных кредитов и инвестиций (АО «ЭКСАР»), АО РОСЭКСИМБАНК и АНО «Школа экспорта», что позволяет обеспечить наличие продуктового предложения, удовлетворяющего потребности экспортеров различного профиля, находящихся на различных этапах экспортного цикла – от идеи, до обеспечения получения оплаты за поставленные на экспорт товары и услуги.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<div id="map"></div>
 
 		<div class="subscribe">
 			<div class="container container_big">
@@ -293,42 +293,6 @@
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
 <script src="js/common.js?ver=1.7"></script>
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-<script>
-	$(document).ready(function() {
-		ymaps.ready(init);
-
-		function init() {
-			var myMap = new ymaps.Map('map', {
-				center: [44.947453, 34.100632],
-				zoom: 15
-			}, {
-				searchControlProvider: 'yandex#search'
-			}),
-
-
-			myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-				balloonContent: '<p class="text-map"><img src="img/logo.svg" alt="alt"></p>'
-			}, {
-            // Опции.
-            // Необходимо указать данный тип макета.
-            iconLayout: 'default#image',
-            // Своё изображение иконки метки.
-            iconImageHref: 'img/pin_map.svg',
-            hideIconOnBalloonOpen: false,
-            iconImageSize: [38, 51],
-            balloonOffset: [ 7, -38]
-        });
-			myMap.controls.remove('searchControl');
-			myMap.behaviors.disable('scrollZoom');
-
-			myMap.geoObjects.add(myPlacemark);
-
-
-			myPlacemark.balloon.open();
-		}
-	});
-</script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
