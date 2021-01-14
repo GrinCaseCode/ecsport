@@ -1671,6 +1671,9 @@ padding-bottom: 15px;
 .billbord__logos {
     justify-content: center;
 }
+.calendar .container_big {
+    max-width: 1455px;
+}
 }
 @media (min-width: 1780px) {
 .billbord__image {
