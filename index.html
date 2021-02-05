@@ -18,8 +18,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.7" />
-	<link rel="stylesheet" href="css/media.css?ver=1.7" />
+	<link rel="stylesheet" href="css/main.css?ver=1.11" />
+	<link rel="stylesheet" href="css/media.css?ver=1.11" />
 </head>
 <body>
 
@@ -50,8 +50,8 @@
 						</ul>
 					</div>
 					<div class="right-header">
-						<a href="tel:" class="phone-main"><i class="fas fa-phone-alt"></i>+7 (978) 797-87-97</a>
-						<a href="#" class="btn-transparent">Заказать звонок</a>
+						<a href="tel:+79787978797" class="phone-main"><i class="fas fa-phone-alt"></i>+7 (978) 797-87-97</a>
+						<a href="#callback" class="btn-transparent fancybox">Заказать звонок</a>
 						<span class="btn_nav">
 							<span class='sandwich'>
 								<span class='sw-topper'></span>
@@ -108,7 +108,7 @@
 						<div class="bigtitle-billbord">экспорта товаров и услуг </div>
 						<div class="title-billbord">из Крыма на зарубежные рынки</div>
 						<div class="descr-billbord">Уже более 400 субъектов малого <br>и среднего бизнеса успешно экспортируют товары и услуги зарубеж</div>
-						<a href="#" class="btn-main">Оставить заявку на включение в реестр организаций, претендующих на поддержку</a>
+						<a href="#application" class="btn-main fancybox">Оставить заявку на включение в реестр организаций, претендующих на поддержку</a>
 					</div>
 					<div class="col-lg-6">
 						<div class="billbord__image">
@@ -753,6 +753,118 @@
 
 	</div>
 
+	<div id="callback" class="modal-block">
+		<div class="modal-wrap">
+			<div class="title-modal">обратный звонок</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Имя" required="required">
+				</div>
+				<div class="item-form">
+					<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+				</div>
+				<button class="btn-main" type="submit">Отправить</button>
+				<div class="checkbox-wrap">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" required="required" checked="checked" />
+							<span>Согласие на обработку персональных данных</span>
+						</label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div id="application" class="modal-block">
+		<div class="modal-wrap-big">
+			<div class="title-modal-middle">ЗАЯВКА НА ДОБАВЛЕНИЕ В РЕЕСТР МСП</div>
+			<form>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="item-form">
+							<div class="item-form__title">Название организации</div>
+							<input type="text" placeholder="Укажите Вашу компанию">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">Фамилия Имя Отчество *</div>
+							<input type="text" placeholder="ФИО полностьюю" required="required">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">E-mail *</div>
+							<input type="email" placeholder="Ваша электронная почта" required="required">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">Телефон *</div>
+							<input type="text" placeholder="+7 (___) ___-__-__" class="input-phone" required="required">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">Юридический адрес</div>
+							<input type="text" placeholder="Адрес регистрации компании">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">Адрес местонахождения</div>
+							<input type="text" placeholder="Фактический адрес">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">ФИО, должность представителя</div>
+							<input type="text" placeholder="Укажите представителя компании">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">Краткое описание</div>
+							<input type="text" placeholder="Описание деятельности субъекта МСП">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<div class="item-form__title">ИНН (ЮЛ или ИП)</div>
+							<input type="text">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">ОГРН (ОГРНИП)</div>
+							<input type="text">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">ОКВЭД</div>
+							<input type="text">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">Численность работников</div>
+							<input type="text" placeholder="Средняя">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">Выручка от реализации товаров, работ, услуг</div>
+							<input type="text" placeholder="За последний год">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">Какую поддержку вы хотели бы получить</div>
+							<input type="text" placeholder="Перечень обсуждаемых вопросов">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">Какие страны Вас интересуют</div>
+							<input type="text">
+						</div>
+						<div class="item-form">
+							<div class="item-form__title">Из какого источника Вы узнали о ЮГЦПЭ</div>
+							<input type="text">
+						</div>
+					</div>
+				</div>
+				<div class="button-modal-wrap">
+					<button class="btn-main" type="submit">Отправить</button>
+				</div>
+				<div class="checkbox-wrap">
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" required="required" checked="checked" />
+							<span>Согласие на обработку персональных данных</span>
+						</label>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -766,7 +878,7 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.7"></script>
+<script src="js/common.js?ver=1.11"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
