@@ -104,7 +104,37 @@ $(".input-phone").mask("+7 (999) 999-99-99");
 	});
 
 
+/*tabs*/
+$('.tabs-about li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(this).parent().parent().siblings(".tab-container-about").find(".tab-pane-about").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).fadeIn(100);
+	});
 
+
+  {
+    if ($(window).width() < 768) { 
+
+      /*scroll to tabs*/
+
+      $('.tabs-about a').on( 'click', function(){ 
+        var el = $(this);
+        var dest = el.attr('href'); 
+        if(dest !== undefined && dest !== '') { 
+          $('html').animate({ 
+            scrollTop: $(dest).offset().top - 80
+        }, 500 // скорость прокрутки
+        );
+        }
+        return false;
+      });
+
+
+    }
+  }
 	 // стайлер для select
 	 $('select').styler();
 
