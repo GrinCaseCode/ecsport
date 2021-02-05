@@ -2278,6 +2278,54 @@ text-transform: uppercase;
 #tab_about1 {
 	font-weight: 500;
 }
+
+.tab-container-about {
+	padding-top: 15px;
+}
+.about .row_team {
+	margin-top: -25px;
+	margin-bottom: 40px;
+}
+.wrap-news__content {
+	width: 1600px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.wrap-news__content .row_news > div:nth-child(even) .item-news:first-child {
+	background-color: #fff;
+}
+.wrap-news__content .row_news > div:nth-child(even) {
+	margin-top: 0;
+}
+.wrap-news__content .row_news {
+	margin-top: 85px;
+}
+.block-history-success {
+	padding: 34px 15px;
+	line-height: 24px;
+	color: #333;
+	font-weight: 500;
+	max-width: 810px;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 0px 3px 3px 0px rgb(153 153 153 / 40%);
+    border-radius: 20px;
+}
+.block-history-success strong {
+	font-weight: 700;
+	color: #00255f;
+}
+.block-white {
+	padding: 65px 68px;
+	line-height: 24px;
+	color: #333;
+		box-shadow: 0px 3px 3px 0px rgb(153 153 153 / 40%);
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+
 .title-small {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -2323,49 +2371,4 @@ text-transform: uppercase;
     line-height: 1;
     font-family: "Font Awesome 5 Pro";
         font-weight: 400;
-}
-.tab-container-about {
-	padding-top: 15px;
-}
-.about .row_team {
-	margin-top: -25px;
-	margin-bottom: 40px;
-}
-.wrap-news__content {
-	width: 1600px;
-	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
-}
-.wrap-news__content .row_news > div:nth-child(even) .item-news:first-child {
-	background-color: #fff;
-}
-.wrap-news__content .row_news > div:nth-child(even) {
-	margin-top: 0;
-}
-.wrap-news__content .row_news {
-	margin-top: 85px;
-}
-.block-history-success {
-	padding: 34px 15px;
-	line-height: 24px;
-	color: #333;
-	font-weight: 500;
-	max-width: 810px;
-	margin: 0 auto;
-	text-align: center;
-	box-shadow: 0px 3px 3px 0px rgb(153 153 153 / 40%);
-    border-radius: 20px;
-}
-.block-history-success strong {
-	font-weight: 700;
-	color: #00255f;
-}
-.block-white {
-	padding: 65px 68px;
-	line-height: 24px;
-	color: #333;
-		box-shadow: 0px 3px 3px 0px rgb(153 153 153 / 40%);
-    border-radius: 20px;
-    background-color: #fff;
 }
