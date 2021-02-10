@@ -1115,6 +1115,9 @@
 .header__title {
     display: none;
 }
+.wrapper {
+    padding-top: 69px;
+}
 }
 
 /* Small Devices, Tablets */
