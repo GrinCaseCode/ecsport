@@ -100,12 +100,7 @@
 .instagram__image img {
 	max-width: 750px;
 }
-.advantages__img img {
-    max-width: 110%;
-}
-.item-advantage {
-    margin-bottom: 45px;
-}
+
 .get-consult__img img {
     max-width: 850px;
 }
@@ -133,6 +128,23 @@
 }
 .item-support {
     font-size: 16px;
+}
+
+.billbord__image img {
+    max-width: 900px;
+}
+.billbord .btn-main {
+    margin-top: 35px;
+}
+.descr-billbord {
+    padding-top: 30px;
+}
+.billbord__left {
+    padding-top: 25px;
+}
+.billbord {
+    padding-bottom: 80px;
+    min-height: auto;
 }
 }
 @media only screen and (max-width : 1440px) {
@@ -432,6 +444,10 @@
 .get-consult_service .descr-big {
     font-size: 17px;
     line-height: 31px;
+}
+
+.billbord__image img {
+    max-width: 900px;
 }
 }
 /* Large Devices, Wide Screens */
@@ -755,6 +771,7 @@
 }
 .col_advantages {
 	display: flex;
+    padding-top: 0;
 }
 .item-advantage {
 	padding: 0 4px;
@@ -951,17 +968,7 @@
 .advantages__img img {
     max-width: 100%;
 }
-.item-advantage__image {
-    width: 90px;
-    height: 90px;
-    position: relative;
-    top: 0;
-    margin-bottom: 10px;
-}
-.item-advantage__image img {
-    max-width: 63px;
-    max-height: 38px;
-}
+
 .advantages .title-section {
     padding-bottom: 0;
 }
@@ -1097,6 +1104,13 @@
 .statesupport .modal-wrap-big {
     padding-left: 2px;
     padding-right: 2px;
+}
+
+.header_frontpage {
+    background-color: #f9f9f9;
+}
+.billbord__image {
+    left: 0;
 }
 }
 
@@ -1496,6 +1510,13 @@
 }
 .statesupport {
     padding-bottom: 40px;
+}
+
+.header__title {
+    display: none;
+}
+.wrapper {
+    padding-top: 68px;
 }
 }
 
@@ -1965,6 +1986,10 @@
 .row_support > div {
     margin-top: 20px;
 }
+
+.wrapper {
+    padding-top: 65px;
+}
 }
 
 
@@ -2024,7 +2049,7 @@
 @media (min-width: 1780px) {
     .billbord__image {
         position: relative;
-        left: 115px;
+        left: -35px;
     }
     .billbord__logos {
         justify-content: flex-end;
