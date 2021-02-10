@@ -17,7 +17,15 @@ $(document).ready(function() {
 
 		});
 
-		$(".menu li a").click(function(e) {
+	
+		
+	});
+
+		
+
+		 {
+    if ($(window).width() < 992) { 
+$(".menu li a").click(function(e) {
 			if ($(this).parent().hasClass("has_child")) {
 				e.preventDefault();
 			$(this).siblings(".menu-dropdown").slideToggle(200);
@@ -26,8 +34,10 @@ $(document).ready(function() {
 				$(".sandwich").removeClass("active");
 			}
 		});
-		
-	});
+
+
+    }
+  }
 
 	$(".title-footer").click(function() {
 		$(this).toggleClass("active");
