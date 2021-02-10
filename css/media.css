@@ -1112,6 +1112,9 @@
 .billbord__image {
     left: 0;
 }
+.header__title {
+    display: none;
+}
 }
 
 /* Small Devices, Tablets */
@@ -1512,9 +1515,7 @@
     padding-bottom: 40px;
 }
 
-.header__title {
-    display: none;
-}
+
 .wrapper {
     padding-top: 68px;
 }
