@@ -1176,6 +1176,10 @@
 .wrapper {
     overflow: hidden;
 }
+.advantages,
+.billbord {
+    overflow: visible;
+}
 .links-export {
     position: relative;
     top: 0;
