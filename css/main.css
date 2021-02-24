@@ -2575,11 +2575,243 @@ p {
 	padding-bottom: 55px;
 	padding-top: 25px;
 	width: 100%;
-		box-shadow: 0px 3px 3px 0px rgb(153 153 153 / 40%);
+	box-shadow: 0px 3px 3px 0px rgb(153 153 153 / 40%);
 }
 .statesupport .title-modal-middle {
 	padding-bottom: 20px;
 }
 .statesupport .modal-wrap-big .item-form {
-    margin-bottom: 18px;
+	margin-bottom: 18px;
 }
+
+.jq-selectbox__trigger {
+	line-height: 10px !important;
+}
+
+/*header*/
+.wrapper {
+	padding-top: 155px;
+}
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+	background-color: #fff;
+}
+
+/*export*/
+/*export*/
+/*export*/
+.export {
+	padding-top: 30px;
+	padding-bottom: 60px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 21px;
+	background-color: #fcfcfc;
+	background-image: url(../img/bg_steps.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 100% auto;
+}
+.wrapper {
+	overflow: initial;
+}
+.links-export {
+	padding: 7px 10px;
+	line-height: 21px;
+	box-shadow: 0 3px 3px rgba(153, 153, 153, 0.4);
+	border-radius: 10px;
+	font-weight: 700;
+	background-color: #fff;
+	position: sticky;
+	top: 170px;
+}
+.links-export li a {
+	padding: 13px 10px;
+	font-size: 14px;
+	color: #00255f;
+	display: block;
+	border-bottom: 1px solid rgba(0, 37, 95, 0.3);
+	transition: all 0.3s;
+}
+.links-export .mPS2id-highlight-first,
+.links-export li a:hover {
+	background-color: #f7f7f7;
+	border-color:transparent;
+	border-radius: 10px;
+}
+.links-export li:last-child a {
+	border: none;
+}
+.export .title-section {
+	font-size: 30px;
+	padding-bottom: 7px;
+	line-height: 45px;
+}
+.title-export {
+	font-size: 24px;
+	margin-bottom: 30px;
+	line-height: 34px;
+	font-weight: 600;
+	color: #00255f;
+}
+.export__block {
+	margin-bottom: 38px;
+	line-height: 26px;
+	font-weight: 600;
+	padding: 40px;
+	box-shadow: 0 3px 3px rgba(153, 153, 153, 0.4);
+	border-radius: 15px;
+}
+.export__block span {
+	color: #ff3c37;
+}
+.export__block p:last-child {
+	margin-bottom: 0;
+}
+.export p {
+	margin-bottom: 20px;
+}
+.export__content li::before {
+	content: "•";
+	margin-right: 8px;
+}
+.export__content ul {
+	margin-bottom: 20px;
+}
+.image-export img {
+	max-width: 100%;
+	box-shadow: 0 3px 3px rgb(153 153 153 / 40%);
+	border-radius: 20px;
+}
+.item-step-export__icon {
+	font-size: 72px;
+	width: 154px;
+	height: 154px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	font-weight: 700;
+	color: #2086f1;
+	box-shadow: 0px 10px 25px rgba(0, 37, 95, 0.20);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.item-step-export p {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #00255f;
+	margin: 0;
+}
+.item-step-export {
+	margin: 0 auto;
+	margin-bottom: 42px;
+	max-width: 318px;
+	text-align: center;
+}
+.row_stes-export {
+	margin-top: 40px;
+}
+.export .descr-article {
+	padding-right: 120px;
+	margin-bottom: 40px;
+}
+.export-text-block {
+	padding: 30px;
+	border-radius: 6px;
+	min-height: 100%;
+	background-color: #fff;
+	box-shadow: 0px 10px 25px rgba(0, 37, 95, 0.20);
+}
+.export-text-block p {
+	margin: 0;
+}
+.row_export-text-block > div {
+	margin-bottom: 30px;
+}
+.row_export-text-block {
+	margin-top:40px;
+	margin-bottom: 50px;
+}
+.item-why-export {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	max-width: 350px;
+	display: flex;
+	align-items: center;
+}
+.item-why-export__icon {
+	width: 100px;
+	height: 100px;
+	flex: none;
+	border-radius: 50%;
+	padding: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 10px 25px rgba(0, 37, 95, 0.20);
+	margin-right: 18px;
+	background-color: #fff;
+}
+.item-why-export p {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	margin: 0;
+	color: #00255f;
+}
+.row_item-why-export {
+	justify-content: center;
+}
+.item-why-export__icon img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.modal-wrap-big .checkbox-wrap {
+	margin: 0;
+	margin-top: 25px;
+	max-width: 100%;
+}
+.step-application p {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 600;
+	color: #00255f;
+}
+.step-application {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+}
+.step-application .title-middle {
+	margin-right: 20px;
+	padding: 0;
+}
+.step-application p a {
+	color: #00255f;
+	border-bottom: 1px #00255f solid;
+	transition: all 0.3s;
+}
+.step-application p a:hover {
+	border-color:transparent;
+}
+.title-modal-middle {
+	padding-bottom: 25px;
+}
+.button-modal-wrap {
+	padding-top: 15px;
+}
+.step-application .btn-main {
+	font-size: 14px;
+}
+.step-application .btn-main i {
+	font-size: 18px;
+	margin-right: 10px;
+} 
