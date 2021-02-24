@@ -1,6 +1,13 @@
 $(document).ready(function() {
 
 
+/*export*/
+/*export*/
+$(".links-export li a").mPageScroll2id({
+		offset: 150
+	});
+
+
 	$has_child = $(".menu li").has(".menu-dropdown");
 	//кнопка sandwich
 	$(".btn_nav").click(function() {
@@ -16,12 +23,8 @@ $(document).ready(function() {
 		$(".has_child a").click(function(e) {
 
 		});
-
 	
-		
 	});
-
-		
 
 		 {
     if ($(window).width() < 992) { 
@@ -34,7 +37,6 @@ $(".menu li a").click(function(e) {
 				$(".sandwich").removeClass("active");
 			}
 		});
-
 
     }
   }
